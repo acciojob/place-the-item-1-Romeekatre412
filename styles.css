@@ -1,2 +1,23 @@
+.holder {
+    display: flex;
+    justify-content: space-between;   /* space between items */
+    flex-wrap: wrap;                  /* allow items to go to next row */
+    gap: 10px;                        /* optional spacing between rows */
+    width: 100%;
+}
 
-/* Your CSS Code here. */
+.item {
+    width: 150px;
+    height: 150px;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bold;
+}
+
+/* Colors used in your example */
+.green { background: green; }
+.red   { background: red; }
+.blue  { background: blue; }
